@@ -1,0 +1,12 @@
+a = input()
+b = input()
+x = list(a)
+y = list(b)
+x.sort()
+y.sort()
+a = "".join(x)
+b = "".join(y)
+if a == b:
+    print("tak")
+else:
+    print("nie")

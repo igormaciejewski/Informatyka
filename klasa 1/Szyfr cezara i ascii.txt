@@ -1,0 +1,44 @@
+!!WAZNE!!
+https://algorytm.edu.pl/wstp-do-c/ascii.html
+
+
+#Funkcja ord
+print(ord("a"))
+print(ord("B"))
+
+
+#Funkcja chr 
+print(chr(66))
+print(chr(97))
+
+
+#Po³¹czenie calosci
+print(chr(ord("c")))
+print(chr(ord("c")+2))
+
+
+#Z.1-alfabet od a do z
+for i in range(65,91):
+    print(chr(i))
+    
+#Z.2-Dlugosc napisku i jaki gdzie jest
+napis = "POLSKA"
+print(len(napis))
+print(napis[0])
+
+
+#Z.3-w petli wypisz litery napisu
+napis = input()
+for i in range(len(napis)):
+    print(napis[i])
+
+#Z.4-wypisz kody ascii litery danego napisu
+napis = input()
+for i in range(len(napis)):
+    print(ord(napis[i]))
+    
+    
+#Z.5-zaszyfruj napis w kodzie cezara o kluczu = 3
+napis = input()
+for i in range(len(napis)):
+    print(chr(ord(napis[i])+3))

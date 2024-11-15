@@ -1,0 +1,15 @@
+def oblicz_wartosc_wielomianu(wspolczynniki, x):
+    n = len(wspolczynniki) - 1
+    y = 0
+    for i in range(n + 1):
+        y += wspolczynniki[i] * (x ** i)
+    return y
+
+wspolczynniki_str = input("Podaj wspolczynniki wielomianu, oddzielajac je spacjami (np. '2 -3 0 5'): ")
+wspolczynniki = list(map(float, wspolczynniki_str.split()))
+
+x = float(input("Podaj wartosc x: "))
+
+wynik = oblicz_wartosc_wielomianu(wspolczynniki, x)
+
+print(f"Wartosc wielomianu dla x = {x} wynosi: {wynik}")

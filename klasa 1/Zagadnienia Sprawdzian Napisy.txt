@@ -1,0 +1,68 @@
+﻿# ZAGADNIENIA Napisy 
+# - len, for, "foreach", ord, chr
+# - indeksy, zakresy
+# - konwersje list <-> napis
+# - list - sort reverse
+# - split, join
+# Algorytmy - anagram, palindom, Boyer-Moore
+
+# Wszystkie zadania wykonujemy na 26-znakowym
+# alfabecie maturalnym: od A (65) do Z (90)
+# ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+# Przykładowe zadania:
+
+# 1. Wczytaj dowolny napis i wypisz z niego pierwszą i ostatnią literkę
+
+napis = input()
+pl = napis[0]
+ol = napis[-1]
+print(pl)
+print(ol)
+
+# 2. Wczytaj dowolny napis i wypisz z niego literki bez pierwszej i ostatniej
+
+napis_pop = napis[1:-1]
+print(napis_pop)
+
+# 3. Wypisz 4 ostatnie literki z wpisanego napisy w kolejności od końca
+
+print(napis[-1])
+print(napis[-2])
+print(napis[-3])
+print(napis[-4])
+
+# 4. Waga napisu to suma kodów ascii jego liter. Zważ wpisny napis
+
+s = 0
+for i in napis:
+    s += ord(i)
+print(s)
+
+# 5. Policz ile we wpisanym napisie jest liter A.
+
+counter = 0
+for i in napis:
+    if i == "A" or i == "a":
+        counter += 1
+print(counter)
+
+# 6. Podaj dominującą literkę we wpisanym napisie. 
+# Niech to będzie tylko jedna literka.
+
+# 7. Znajdź literkę-dominantę w napisie (może ich być kilka, a może nie być żadnej)
+
+# 8. Sprawdź czy w napisie występują trzy podciągi "LA"
+
+# 9. Znajdź "średnią literkę" w napisie. (Przejdź na kody ASCII i jeśli wynik będzie
+# ułamkowy to zaokrąglij średnią w dół)
+
+# 10. Wypisz literki, których nie ma w napisie
+
+# 11. Znajdź ilość trzyznakowych palindromów w napisie (trzy literki koło siebie)
+
+
+
+uczen
+zaq1@WSX
+10.10.10.139

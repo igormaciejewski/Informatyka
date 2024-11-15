@@ -1,0 +1,39 @@
+1. Definicja Kanban:
+   Metoda Kanban to zwinna metodyka zarządzania przepływem pracy oraz wizualizacji procesów biznesowych. 
+   Metoda ta służy optymalizowaniu pracy i procesów w celu maksymalizacji wydajności, minimalizacji marnotrastwa dzięki wizualizacji pracy oraz ciągłemu doskonaleniu procesów w oparciu o raporty i analizy.
+
+2. Geneza Kanban:
+   Kanban wywodzi się z japońskiego przemysłu, zwłaszcza z systemu Toyota Production System (TPS), gdzie został wprowadzony jako narzędzie do kontroli przepływu materiałów i produkcji. 
+   Z czasem metoda Kanban została dostosowana i rozwinęła się w kontekście zarządzania projektami i usługami.
+
+3. Zasady Kanban - Zasady zarządzania zmianą:
+   - Rozpocznij od tego, co masz obecnie (rozumienie istniejących procesów).
+   - Akceptuj inkrementalne zmiany (unikaj drastycznych zmian na raz).
+   - Respektuj obecne role, odpowiedzialności i procesy pracy.
+   - Zachowuj elastyczność w dostosowywaniu się do zmian.
+
+4. Zasady Kanban - Zasady dostarczania usług:
+   - Wizualizuj pracę (używaj tablicy Kanban).
+   - Ogranicz pracę w toku (ogranicz ilość prac nad zadaniami jednocześnie).
+   - Zarządzaj przepływem pracy (zapewnij równy przepływ zadań).
+   - Wprowadzaj zasady kadencji (cyklicznych przeglądów i doskonalenia procesu).
+
+5. Kadencje w Kanban (pętle zwrotne):
+   W Kanban istnieją regularne kadencje, takie jak cotygodniowe, co-dwa-tygodniowe lub miesięczne spotkania zwrotne, gdzie zespół ocenia postęp, analizuje wydajność i wprowadza ewentualne zmiany w procesie. To pomaga w ciągłym doskonaleniu.
+
+6. Role:
+   W Kanban występują różne role, takie jak:
+   - Kierownik Kanban: Odpowiada za wdrożenie i utrzymanie systemu Kanban.
+   - Właściciel produktu: Zarządza priorytetami zadań.
+   - Zespół pracy: Wykonuje zadania i kontroluje ich przepływ.
+
+7. Metryki:
+   W Kanban stosuje się różne metryki, takie jak:
+   - Czas cyklu: Czas potrzebny na ukończenie zadania od momentu jego rozpoczęcia.
+   - Przepustowość: Ilość zadań, które zespół jest w stanie ukończyć w danym czasie.
+   - WIP (Praca w toku): Ilość zadań w danym momencie znajdujących się w toku.
+   - Burndown chart: Wykres obrazujący postęp prac nad zadaniami w określonym czasie.
+
+8. Wizualizacja (tablica i karta):
+   Wizualizacja w Kanban polega na używaniu tablicy Kanban, na której umieszcza się karty reprezentujące zadania. 
+   Karty są przesuwane po tablicy w odpowiednich kolumnach, odzwierciedlając etapy pracy nad nimi. To pozwala na łatwą wizualizację przepływu pracy i monitorowanie postępu zadania.

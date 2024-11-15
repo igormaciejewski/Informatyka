@@ -1,0 +1,26 @@
+def nwd (a,b):
+    while a != b:
+        if a > b:
+            a = a - b
+        else:
+            b = b - a
+    return a
+def nww (a,b):
+    return a * b // nwd(a,b)
+a = int(input())
+b = int(input())
+print(nwd(a, b))
+print(nww(a, b))
+
+def nwd(a, b):
+    while b > 0:
+        a, b = b, a % b
+    return a
+
+def nww(a, b):
+    return a * b // nwd(a, b)
+
+a = int(input())
+b = int(input())
+print(nwd(a, b))
+print(nww(a, b))

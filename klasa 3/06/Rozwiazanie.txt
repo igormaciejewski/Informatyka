@@ -1,0 +1,10 @@
+with open("slowa_06.txt", "r", encoding="utf-8") as file:
+    words = file.readlines()
+for word in words:
+    print(f"{word}")
+
+
+
+with open("c:/Users/spide/Desktop/Technikum/INformatyka/klasa 3/06/nowy.txt", "w") as file:
+    for number in range(1, 11):
+        file.write(f"{number}\n")

@@ -1,0 +1,41 @@
+1.Rsa-Szyfrowanie asymetryczne czyl uzywajace Z kluczy
+2.Zalety
+a)Moze byc powszechnie uzywany
+b)Jest bardzo bezpieczny
+3.Przebiek RSA
+#Wybor 2 duzych liczb pierwszych
+p = 11
+q = 13
+print(p,q)
+#Obliczyc n = p * q oraz f. Eulera f = (p-1)*(q-1)
+n = p * q
+f = (p-1)*(q-1)
+print(n)
+print(f)
+#Generowanie klucza publicznego e: NWD(f,e) = 1
+from math import gcd
+for i in range(2,f):
+	if gcd(i,f) == 1:
+		e = i
+		break
+print(e,n)
+#Generowanie drugigo klucza prywatnego d: e*d % n = 1 (odwrotnosc modulo)
+for j in range(2,f)
+	if ((e*j) % n) == 1:
+		d = j
+		break
+print(d,n)
+#jak dziala
+# m - message (wiadomosc zaszyfrowana)
+# c = m**e % n (cipher)
+# t = c**d % n (text)
+
+m = int(input())
+cipher = ''
+for i in m:
+	cipher += chr((ord(i)**e) % n)
+print(ciper)
+
+tekst = ""
+for j i cipher:
+	tekst += chr((ord(j)**d) % n)

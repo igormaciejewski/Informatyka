@@ -1,0 +1,33 @@
+def scalanie(tab, lewy, srodek, prawy):
+    pom = []
+    i, j = lewy, srodek + 1
+    while i <= srodek and j <= prawy:
+        if tab[i] < tab[j]:
+            pom.append(tab[i])
+            i += 1
+        else:
+            pom.append(tab[j])
+            j += 1
+    while i <= srodek:
+        pom.append(tab[i])
+        i += 1
+    while j <= prawy:
+        pom.append(tab[j])
+        j += 1
+    for k in range(len(pom)):
+        tab[lewy + k] = pom[k]
+
+def sortuj(tab, lewy, prawy):
+    if lewy < prawy:
+        srodek = (prawy + lewy) // 2
+        sortuj(tab, lewy, srodek)
+        sortuj(tab, srodek + 1, prawy)
+        scalanie(tab, lewy, srodek, prawy)
+
+def Zad1():
+    ciag = input("Wprowadź ciąg liczb rozdzielonych spacjami: ")
+    arr = list(map(int, ciag.split()))
+    sortuj(arr, 0, len(arr) - 1)
+    print("Posortowany ciąg:", arr)
+
+Zad1()

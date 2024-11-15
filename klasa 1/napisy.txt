@@ -1,0 +1,19 @@
+slowo = input
+
+print(slowo[0])
+print(slowo[1])
+print(slowo[2])
+print(slowo[3])
+print(slowo[4])
+print(slowo[5])
+print(slowo[6])
+print(slowo[7])
+print(slowo[8])
+print(slowo[9])
+
+slowo1 = input()
+str = ''
+for i in range (0, len(slowo1)):
+    str += slowo1[i]
+    print(str)
+

@@ -1,0 +1,50 @@
+# Zad 1
+# a = int(input())
+# if a % 3 == 0:
+#     print("TAK")
+# else:
+#     print("NIE")
+
+# Zad 2
+# a = int(input())
+# if a >= 100 and a < 1000 and a % 17 == 0:
+#     print("TAK")
+# else:
+#     print("NIE")
+
+#Zad 3
+# wiek = int(input("Ile masz lat?\n"))
+# if wiek >= 18:
+#     print("TAK, jesteœ pe³noletni")
+# else:
+#     print("NIE")
+
+# Zad 4
+# LIMIT = 20
+# waga = int(input("Ile wa¿ysz ciê¿arówko? "))
+# if waga <= LIMIT:
+#     print("Mo¿esz wjechaæ")
+# else:
+#     print("Lepiej nie wje¿d¿aj")
+
+#Zad 5
+# a, b, c = map(int, input().split())
+# if (a < c and b > c) or (b < c and a > c):
+#     print("TAK, SPE£NIA WARUNKI")
+# else:
+#     print("NIE SPE£NIA")
+
+#Zad 6
+# a = int(input("Podaj dowoln¹ liczbê: "))
+# p = int(input("Podaj liczbê pierwsz¹: "))
+# if ((a**p - a) % p == 0):
+#     print("TAK, spe³nia MTF")
+# else:
+#     print("NIE, nie spe³nia MTF")
+
+# Zad 7
+# p, k, s = map(int, input().split())
+# if s*3 >= (k-p):
+#     print("TAK, p³az da radê")
+# else:
+#     print("NIE, ¿aba nie da³a rady.")

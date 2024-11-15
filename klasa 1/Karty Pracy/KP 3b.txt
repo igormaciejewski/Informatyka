@@ -1,0 +1,86 @@
+#Zad.1
+print("wszystkie dni listopada")
+for i in range(1,31):
+print(i)
+      
+#Zad.2
+a = int(input("Podaj Zakres"))
+for i in range(1,a+1):
+    if i % 2!=0:
+print(i**2)
+        
+#Zad.3
+for i in range(1000,10000):
+    if i%379 == 0:
+print(i)'
+        
+#Zad.4
+for i in range(100,1000):
+    if i%5==0 and i%6==0 and i%11==0:
+        print(i)
+Albo
+
+for i in range(100,1000):
+    if i%5==0:
+        print(i)
+for i in range(100,1000):
+    if i%6==0:
+        print(i)
+for i in range(100,1000):
+    if i%11==0:
+        print(i)
+        
+#Zad.5
+n = int(input("Ile liczb:"))
+suma = 0
+for i in range(n):
+    a = int(input("Podaj liczby:"))
+    suma = suma+a
+print(suma)
+    
+#Zad.6
+k=int(input("podaj liczbe k:"))
+suma=0
+for i in range (2,(k*2)+2,+2):
+    suma += i
+print("suma:",suma)
+
+ 
+#Zad.7
+m=int(input("Podaj liczbe:"))
+suma=0
+for i in range(11,(m*2)+11,+2):
+    suma+=i
+print("suma:",suma)
+
+
+#Zad.8
+w0=int(input("podaj kwote wejsciowoa:"))
+l= int(input("Ile lat trwa³a inwestycja? "))
+suma=0
+suma=w0
+for i in range(1,l*12):
+    a=suma*0.06*(1/12)
+    suma=suma+a
+print(suma)
+
+
+#Zad.9
+n=int(input("Ile liczb: "))
+m=21
+suma = 0
+for i in range(0,n+1):
+    for j in range(0,i,m):
+        print(m)
+        suma += m
+        m += 100
+print("Suma", suma)
+
+
+#Zad.10
+from cmath import sqrt
+for i in range(1,1000):
+    if i % 10 ==sqrt(i):
+        print(i)
+    if i % 100 ==sqrt(i):
+        print(i)
